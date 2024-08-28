@@ -18,7 +18,7 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animantion: pipe-animation 1.5s infinite linear;
+    animation: pipe-animation 1.5s infinite linear;
 
 .mario {
     width: 150px;
@@ -36,18 +36,18 @@
     animation: clouds-animation 20s infinite linear;
 }
 
+
 @keyframes pipe-animation {
     from{
         rigth: -80px
     }
-    
     to {
         rigth: 100%;
     }
 }
 
 @keyframes jump {
-    0%{
+    0% {
         bottom: 0;
     }
 
@@ -55,7 +55,7 @@
         bottom: 180px;
     }
 
-    50% { 
+    50% {
         bottom: 180px;
     }
 
@@ -69,6 +69,7 @@
 }
 
 @keyframes clouds-animation {
+
     from {
         right: -550px;
     }
