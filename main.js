@@ -19,6 +19,7 @@ const startGame = () => {
 }
 
 const jump = () => {
+    if(gameStarted) {
     mario.classList.add("jump");
 
     setTimeout(() => {
